@@ -8,3 +8,6 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+import os
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
